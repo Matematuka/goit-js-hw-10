@@ -1,0 +1,2 @@
+import"./assets/modulepreload-polyfill-ec808ebb.js";/* empty css                      */import{f as t,i as o}from"./assets/vendor-651d7991.js";const r=document.querySelector("#datetime-picker");document.querySelector("button");const i={enableTime:!0,time_24hr:!0,defaultDate:new Date,minuteIncrement:1,onClose(e){console.log(e[0])}};t(r,i);o.show({title:"Error",message:"Please choose a date in the future",backgroundColor:"#EF4040",titleColor:"#FFF",titleSize:"16px",messageColor:"#FFF",messageSize:"16px",position:"topCenter"});
+//# sourceMappingURL=commonHelpers.js.map
