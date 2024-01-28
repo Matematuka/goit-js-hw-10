@@ -36,7 +36,8 @@ h1 {
 }
 .input-box {
   display: flex;
-gap: 8px;
+  gap: 8px;
+  margin-bottom: 32px;
 }
 input {
   /* width: 272px;
@@ -58,8 +59,7 @@ input {
 
 input:hover, input:focus {
   border: 1px solid #000;
-}
-
+} 
 button {
   display: flex;
   padding: 8px 16px;
@@ -78,4 +78,35 @@ button {
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.64px;
+}
+
+.timer {
+  display: flex;
+  gap: 24px;
+}
+
+.field{ 
+  display: flex;
+  flex-direction: column;
+}
+.value {
+  color: #2E2F42;
+  font-family: Montserrat;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: 1.6px;
+  text-align: center;
+}
+
+.label {
+  color: #2E2F42;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: uppercase;
+  text-align: center;
 }
