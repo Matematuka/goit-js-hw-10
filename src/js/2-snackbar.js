@@ -29,12 +29,28 @@ const promise = new Promise((resolve, reject) => {
 function onFulfilled(delay) {
 iziToast.show({
     title: 'OK',
-    message: `Fulfilled promise in ${delay}ms`
+    titleColor: '#fff',
+    titleSize: '16px',
+    titleLineHeight: '150%',
+    backgroundColor: '#59a10d',
+    message: `Fulfilled promise in ${delay}ms`,
+    messageColor: '#fff',
+    messageSize: '16px',
+    messageLineHeight: '150%',
+    position: 'topCenter'
 });
 };
 function onRejected(delay) {
 iziToast.show({
     title: 'Error',
-    message: `Rejected promise in ${delay}ms`
+    titleColor: '#fff',
+    titleSize: '16px',
+    titleLineHeight: '150%',
+    backgroundColor: ' #ef4040',
+    message: `Rejected promise in ${delay}ms`,
+    messageColor: '#fff',
+    messageSize: '16px',
+    messageLineHeight: '150%',
+    position: 'topCenter'
 });
 };
