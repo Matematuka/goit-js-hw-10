@@ -37,7 +37,8 @@ iziToast.show({
     messageColor: '#fff',
     messageSize: '16px',
     messageLineHeight: '150%',
-    position: 'topCenter'
+    position: 'topCenter',
+    close: 'false'
 });
 };
 function onRejected(delay) {
@@ -51,6 +52,7 @@ iziToast.show({
     messageColor: '#fff',
     messageSize: '16px',
     messageLineHeight: '150%',
-    position: 'topCenter'
+    position: 'topCenter',
+    close: 'false'
 });
 };
